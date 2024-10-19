@@ -33,7 +33,7 @@ const CustomerGallery = () => {
             <img
               src={customer.img}
               alt={customer.alt}
-              className="rounded-lg object-cover w-60 h-80 ml-10"
+              className="rounded-lg object-cover w-full h-60 md:h-72 lg:h-80"
             />
           </div>
         ))}
