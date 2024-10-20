@@ -2,7 +2,6 @@ import React from "react";
 import 'swiper/css';  
 import 'swiper/css/pagination';  
 import 'swiper/css/navigation'; 
-// import '../mySlider.css';
 import image from '../img/image.png'; 
 import image2 from '../img/image2.png'
 import PetGallery from '../component/PetGallery';
@@ -14,10 +13,8 @@ function HeroComponent(){
         <div className="mainCntainer mb-40 relative ">
             <div id='hero_banner' className=" overflow-y-hidden h-screen flex flex-col ">
             <nav className="w-full  bg-transparent py-4 px-20 flex items-center justify-between">
-  {/* Logo */}
   <div className="text-2xl font-bold text-blue-900">Monito</div>
 
-  {/* Navigation Links */}
   <nav className="space-x-10">
         <Link to="/" className="text-gray-700 hover:text-blue-600">Home</Link>
         <Link to="/category" className="text-gray-700 hover:text-blue-600">Category</Link>
@@ -25,9 +22,7 @@ function HeroComponent(){
         <Link to="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
       </nav>
 
-  {/* Search bar and buttons */}
   <div className="flex items-center space-x-4">
-    {/* Search bar */}
     <div className="flex items-center bg-white border rounded-full shadow-md p-2 w-72">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +45,6 @@ function HeroComponent(){
       />
     </div>
 
-    {/* Action Buttons */}
     <button className="bg-blue-600 text-white py-2 px-4 rounded-full">
       Join the community
     </button>
